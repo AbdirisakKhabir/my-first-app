@@ -1,0 +1,122 @@
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+.container {
+    /* Mobile styles here */
+    display: block;
+    /* Other mobile-specific styles */
+}
+
+
+
+
+.navbar ul li a {
+    text-decoration: none;
+
+}
+li{
+ 
+    display: inline-block;
+    padding: 10px;
+     color: #000;
+    
+}
+li:hover{
+    border: 1px solid #2199ff;
+    border-radius: 10px;
+}
+.hero{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.about, .contact h4 {
+    text-align: center;
+    font-size: 20px;
+}
+.about, .contact {
+    margin: 20px;
+}
+
+.hero button {
+    background-color: #2199ff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.service {
+    border: 2px solid #2199ff;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.service:hover {
+    background-color: #2199ff;
+    color: #fff;
+}
+
+.boxes {
+    border: 2px solid lightgrey;
+    position: relative;
+}
+.box {
+    height: 10rem;
+    width: 10rem;
+   
+}
+
+
+.box1{
+    background-color: dodgerblue;
+}
+.box2{
+
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box3{
+
+    background-color: yellowgreen;
+}
+
+/* Firstly Design Mobile */
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
+/* Firstly Design Mobile */
+@media screen and (min-width: 768px) {
+    .services {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    .service {
+        border: 2px solid #2199ff;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
